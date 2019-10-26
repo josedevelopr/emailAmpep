@@ -30,7 +30,7 @@ public class SpringBootEmailFreemarkerApplication {
 	public MailResponse sendEmail(@RequestBody MailRequest request) {
 		Map<String, Object> model = new HashMap<>();
 		model.put("Name", request.getName());
-		model.put("location", "Bangalore,India");
+		model.put("location", " ");
 		return service.sendEmail(request, model);
 
 	}
