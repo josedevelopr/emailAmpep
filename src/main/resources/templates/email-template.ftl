@@ -1,35 +1,25 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Java Techie Mail</title>
+<title>Codigo de validacion</title>
 </head>
 
 <body>
-	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	<table width="60%" border="0" cellspacing="0" cellpadding="0">
 		<tr>
-			<td align="center" valign="top" bgcolor="#838383"
-				style="background-color: #838383;"><br> <br>
-				<table width="600" border="0" cellspacing="0" cellpadding="0">
+			<td align="left" valign="top" ><br> <br>
+				<table width="90%" border="0" cellspacing="0" cellpadding="0" style="border: 1px solid #3f4042; border-radius: 10px;">
 					<tr>
-						<td align="center" valign="top" bgcolor="#d3be6c"
-							style="background-color: #d3be6c; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #000000; padding: 0px 15px 10px 15px;">
+						<td align="left" valign="top" bgcolor="#d3be6c"
+							style="background-color: #fff; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 13px; color: #000000; padding: 30px 15px 10px 15px;">
 							
-							<div style="font-size: 48px; color:blue;">
-								<b>Java Techie</b>
+							<div style="font-size: 12px; color:#3f4042;">
+								<h4>Termina tu registro en AMPEP</h4>
 							</div>
-							
-							<div style="font-size: 24px; color: #555100;">
-								<br> Sending Email using Spring Boot with <b>FreeMarker
-									template !!! <br>
-							</div>
-							<div>
-								<br> Java Techie is a channel where we create and publish
-								videos on<br> 'how to' about latest technology trends like<br>
-								spring ,spring boot ,hibernate , web services and micro service
-								<br> ""This channel is created to share the knowledge and
-								to gain the knowledge"<br>
-								<br>"Sharing the knowledge is biggest learning" <br> <br>
-								<br> <br> <b>${Name}</b><br>${location}<br>
+				
+							<div style="font-size: 10px; color:#73767d;">
+								<p>Para continuar con el registro ingresa el siguiente codigo al formulario de registro</p>
+								<h3 style="color:#3f4042;">${Name}</b><br>${location}<h3>
 								<br>
 							</div>
 						</td>
@@ -39,3 +29,4 @@
 	</table>
 </body>
 </html>
+
