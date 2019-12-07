@@ -34,6 +34,15 @@ public class SpringBootEmailFreemarkerApplication {
 		return service.sendEmail(request, model);
 
 	}
+	
+	@PostMapping("/sendingEmailUserCreated")
+	public MailResponse sendEmailUserCreated(@RequestBody MailRequest request) {
+		Map<String, Object> model = new HashMap<>();
+		model.put("Name", request.getName());
+		model.put("location", " ");
+		return service.sendUsersCredendetialsEmail(request, model);
+
+	}
 	/*
 	@PostMapping(path= {"/validacionregistro/"})
 	public ValidacionRegistroUsuario insertValidation(@RequestBody ValidacionRegistroUsuario valreg) {
